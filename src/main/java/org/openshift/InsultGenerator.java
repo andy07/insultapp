@@ -7,6 +7,7 @@ public class InsultGenerator {
 		String words[][] = {{"artless", "bawdy", "beslubbering"}, {"base-court", "bat-fowling", "beef-witted"}, {"apple-john", "baggage", "barnacle"}};
 		String vowels = "aeiou";
 		String article = "an";
+		System.out.println("Test build");
 		String firstAdjective = words[0][new Random().nextInt(words[0].length)];
 		String secondAdjective = words[1][new Random().nextInt(words[1].length)];
 		String noun = words[2][new Random().nextInt(words[2].length)];
